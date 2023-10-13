@@ -9,6 +9,6 @@ public class RotatePart : MonoBehaviour
         float transformRotationAmount = rotationSpeed * Time.deltaTime;
 
         part.Transform.Rotate(Vector3.forward * transformRotationAmount);
-        part.Rigidbody2D.angularVelocity = rotationSpeed * 3;
+        part.Rigidbody2D.angularVelocity = rotationSpeed * 3f;
     }
 }

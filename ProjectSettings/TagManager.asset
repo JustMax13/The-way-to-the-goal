@@ -44,8 +44,11 @@ TagManager:
   - name: Map background
     uniqueID: 3953578657
     locked: 0
-  - name: Map object
+  - name: Physical obj
     uniqueID: 1275404229
+    locked: 0
+  - name: Visual obj
+    uniqueID: 3058071969
     locked: 0
   - name: UI
     uniqueID: 4117663611
